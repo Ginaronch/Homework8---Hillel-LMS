@@ -1,5 +1,5 @@
 def is_palindrome(text):
-    reversed_text = ''.join(char.lower() for char in text if char.isalnum())
+    reversed_text = ''.join(char.lower() for char in text if char.isalnum()) #похоже с 8.1
     if reversed_text == reversed_text[::-1]:
      return True
     else:
